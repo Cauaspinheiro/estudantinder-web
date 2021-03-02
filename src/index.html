@@ -5,11 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Estudantinder</title>
   </head>
-  <body>
-    <div class="w-screen mx-auto min-h-screen bg-bg_page flex flex-col">
-      <div class="w-4 bg-green h-16 flex justify-between"></div>
+  <body class="overflow-x-hidden">
+    <div class="w-screen mx-auto min-h-screen bg-bg-page">
+      <div class="w-screen h-screen flex flex-col">
+        <header
+          class="w-3/4 h-20 flex justify-between items-center self-center"
+        >
+          <img src="/assets/logo.png" alt="Estudantinder" />
+
+          <div class="flex gap-x-14 items-center xl:pr-14">
+            <a
+              href="#"
+              class="font-poppins font-bold text-base text-gray-700 hover:text-gray-900"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="font-poppins font-bold text-base text-gray-700 hover:text-gray-900"
+              >Sobre</a
+            >
+            <a
+              href="#download"
+              class="font-poppins font-bold text-base text-gray-700 hover:text-gray-900"
+              >Download</a
+            >
+            <a
+              href="#contact"
+              class="font-poppins font-bold text-base text-gray-700 hover:text-gray-900"
+              >Fale conosco</a
+            >
+          </div>
+        </header>
+
+        <main
+          class="w-3/4 h-2/3 justify-center items-start self-center flex flex-col"
+        >
+          <h1
+            class="text-4xl w-5/12 font-poppins font-bold text-gray-800 tracking-wide"
+          >
+            Crie novas conexões enquanto aprende!
+          </h1>
+
+          <span class="mt-6 font-poppins font-normal text-xl w-5/12"
+            >Conheça o projeto feitos por alunos para alunos do ensino
+            médio.</span
+          >
+
+          <button
+            type="button"
+            class="bg-primary-green px-10 py-2 mt-8 rounded-md hover:bg-green-600 duration-200 font-poppins font-bold text-white"
+          >
+            Vamos lá
+          </button>
+        </main>
+
+        <img
+          src="/assets/rect-left.svg"
+          alt="Left Rectangle"
+          class="hidden md:block absolute left-0 bottom-0 max-w-screen-lg pointer-events-none"
+        />
+        <img
+          src="/assets/rect-right.svg"
+          alt="Right Rectangle"
+          class="hidden xl:block absolute right-0 bottom-0 h-full pointer-events-none"
+        />
+
+        <img
+          src="/assets/home.svg"
+          alt="Home Estudantinder"
+          class="hidden xl:block absolute right-40 top-20"
+        />
+      </div>
+
+      <div class="w-screen h-screen bg-light-purple"></div>
     </div>
   </body>
 </html>

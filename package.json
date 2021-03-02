@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dev": "cross-env NODE_ENV=dev postcss tailwind.css -o build/styles.css",
-    "build:prod": "cross-env NODE_ENV=prod postcss tailwind.css -o build/styles.css",
-    "postbuild:dev": "npx copy src/*.html build",
-    "postbuild:prod": "npx copy src/*.html build"
+    "dev": "cross-env NODE_ENV=dev postcss tailwind.css -o src/styles.css",
+    "build": "cross-env NODE_ENV=prod postcss tailwind.css -o build/styles.css",
+    "postbuild": "npx copy src/index.html build"
   },
   "repository": {
     "type": "git",
