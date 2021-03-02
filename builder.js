@@ -1,3 +1,5 @@
 const copy = require('copy')
 
-copy('src/**', 'public', {}, () => {})
+copy('src/*.html', 'public', {}, () => {})
+
+copy('assets/**', 'public', {}, () => {})
