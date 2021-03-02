@@ -1,8 +1,8 @@
 {
   "name": "estudantinder-web",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev postcss tailwind.css -o src/styles.css",
     "build": "cross-env NODE_ENV=prod postcss tailwind.css -o public/styles.css",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/Cauaspinheiro/estudantinder-web.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Caua Pinheiro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Cauaspinheiro/estudantinder-web/issues"
