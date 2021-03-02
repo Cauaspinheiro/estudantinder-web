@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev postcss tailwind.css -o src/styles.css",
-    "build": "cross-env NODE_ENV=prod postcss tailwind.css -o build/styles.css",
-    "postbuild": "npx copy src/index.html build"
+    "build": "cross-env NODE_ENV=prod postcss tailwind.css -o src/styles.css"
   },
   "repository": {
     "type": "git",
