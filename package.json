@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev postcss tailwind.css -o styles.css",
-    "build": "cross-env NODE_ENV=prod postcss tailwind.css -o styles.css"
+    "dev": "cross-env NODE_ENV=dev postcss tailwind.css -o src/styles.css",
+    "build": "cross-env NODE_ENV=prod postcss tailwind.css -o src/styles.css",
+    "postbuild": "node builder.js"
   },
   "repository": {
     "type": "git",
