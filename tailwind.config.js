@@ -9,8 +9,9 @@ module.exports = {
       colors: {
         'bg-page': '#fbfbfb',
         'primary-green': '#0FAD58',
-        'primary-purple': '#5B14F5',
+        'primary-purple': '#6D36DA',
         'light-purple': '#F3EDFF',
+        'primary-black': '#2d2d2d'
       },
       fontFamily: {
         poppins: 'Poppins, Roboto, sans-serif',
