@@ -10,6 +10,7 @@ module.exports = {
         'bg-page': '#fbfbfb',
         'primary-green': '#0FAD58',
         'primary-purple': '#6D36DA',
+        'dark-purple': '#572BAE',
         'light-purple': '#F3EDFF',
         'primary-black': '#2d2d2d'
       },
