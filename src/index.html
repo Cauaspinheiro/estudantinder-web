@@ -306,7 +306,7 @@
           href="https://expo.io/artifacts/050b5934-5a6e-40f5-83af-ffb8a8c22311"
           target="_blank"
           rel="noopener noreferrer"
-          class="px-12 py-4 mt-8 text-lg font-bold text-white rounded-md bg-primary-green hover:bg-green-600 font-poppins"
+          class="px-6 py-4 mt-8 text-lg font-bold text-center text-white rounded-md sm:px-12 bg-primary-green hover:bg-green-600 font-poppins"
         >
           BAIXE O APLICATIVO
         </a>
@@ -314,22 +314,27 @@
 
       <section
         id="contact"
-        class="flex items-center w-screen px-12 py-16 bg-primary-purple justify-evenly"
+        class="flex flex-col items-center w-screen px-12 py-16 lg:flex-row bg-primary-purple justify-evenly"
       >
+        <span
+          class="block text-xl font-bold tracking-wider text-center text-white lg:hidden font-poppins"
+          >Possui alguma dúvida? Fale conosco!</span
+        >
+
         <img
           src="assets/contact.svg"
           alt="Fale Conosco"
-          class="hidden sm:block"
+          class="py-4 lg:py-0"
         />
 
         <div class="flex flex-col items-center gap-y-16">
           <span
-            class="text-xl font-bold tracking-wider text-center text-white font-poppins"
+            class="hidden text-xl font-bold tracking-wider text-center text-white lg:block font-poppins"
             >Possui alguma dúvida? Fale conosco!</span
           >
 
           <span
-            class="w-10/12 text-xl font-bold tracking-wider text-center text-white font-poppins"
+            class="w-full text-xl font-bold tracking-wider text-center text-white sm:w-10/12 font-poppins"
             >Envie um email para
             <a
               class="underline"
@@ -342,7 +347,7 @@
         </div>
       </section>
       <section
-        class="flex items-center w-full py-6 justify-evenly bg-dark-purple"
+        class="flex flex-col items-center w-full py-6 sm:flex-row justify-evenly bg-dark-purple"
       >
         <span class="font-medium tracking-wide text-white font-poppins"
           >Ilustrações:
