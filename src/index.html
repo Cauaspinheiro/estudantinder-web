@@ -71,7 +71,7 @@
           />
 
           <div
-            class="items-center hidden text-base font-bold text-white md:text-primary-black justify-self-end sm:flex gap-x-6 lg:gap-x-14 xl:pr-14 font-poppins"
+            class="z-10 items-center hidden text-base font-bold text-white md:text-primary-black justify-self-end sm:flex gap-x-6 lg:gap-x-14 xl:pr-14 font-poppins"
           >
             <a
               href="#about"
@@ -117,12 +117,12 @@
         <img
           src="assets/rect-left.svg"
           alt="Left Rectangle"
-          class="absolute bottom-0 left-0 hidden max-w-screen-lg pointer-events-none md:block"
+          class="absolute bottom-0 left-0 hidden max-w-screen-lg select-none md:block"
         />
         <img
           src="assets/rect-right.svg"
           alt="Right Rectangle"
-          class="absolute bottom-0 right-0 hidden h-full pointer-events-none xl:block"
+          class="absolute bottom-0 right-0 hidden h-full select-none xl:block"
         />
 
         <img
@@ -173,7 +173,7 @@
           class="flex flex-col items-center w-full py-10 sm:px-0 gap-y-10 md:flex-row justify-evenly md:gap-y-0"
         >
           <div
-            class="flex flex-col items-center p-8 border-2 w-80 h-80 rounded-xl border-primary-purple"
+            class="flex flex-col items-center p-8 transition-shadow duration-300 border-2 hover:shadow-lg w-80 h-80 rounded-xl border-primary-purple"
           >
             <img
               src="assets/estudantinder-icon.svg"
@@ -193,7 +193,7 @@
           </div>
 
           <div
-            class="flex flex-col items-center p-8 border-2 w-80 h-80 rounded-xl border-primary-purple"
+            class="flex flex-col items-center p-8 transition-shadow duration-300 border-2 hover:shadow-lg w-80 h-80 rounded-xl border-primary-purple"
           >
             <img
               src="assets/messages-icon.svg"
@@ -245,13 +245,13 @@
         <img
           src="assets/rect-left-purple.svg"
           alt="Left Rectangle"
-          class="absolute top-0 left-0 hidden h-full pointer-events-none lg:block"
+          class="absolute top-0 left-0 hidden h-full select-none lg:block"
         />
 
         <img
           src="assets/rect-right-purple.svg"
           alt="Right Rectangle"
-          class="absolute bottom-0 right-0 hidden pointer-events-none lg:block"
+          class="absolute bottom-0 right-0 hidden select-none lg:block"
         />
       </section>
 
@@ -284,13 +284,13 @@
         <img
           src="assets/rect-left-gray.svg"
           alt="Left Rectangle"
-          class="absolute bottom-0 left-0 hidden h-full pointer-events-none lg:block"
+          class="absolute bottom-0 left-0 hidden h-full select-none lg:block"
         />
 
         <img
           src="assets/rect-right-gray.svg"
           alt="Right Rectangle"
-          class="absolute top-0 right-0 hidden pointer-events-none lg:block"
+          class="absolute top-0 right-0 hidden select-none lg:block"
         />
       </section>
 
@@ -321,11 +321,7 @@
           >Possui alguma dúvida? Fale conosco!</span
         >
 
-        <img
-          src="assets/contact.svg"
-          alt="Fale Conosco"
-          class="py-4 lg:py-0"
-        />
+        <img src="assets/contact.svg" alt="Fale Conosco" class="py-4 lg:py-0" />
 
         <div class="flex flex-col items-center gap-y-16">
           <span
@@ -337,7 +333,7 @@
             class="w-full text-xl font-bold tracking-wider text-center text-white sm:w-10/12 font-poppins"
             >Envie um email para
             <a
-              class="underline"
+              class="underline hover:text-gray-300"
               target="_blank"
               rel="noopener noreferrer"
               href="mailto:estudantinder@gmail.com"
@@ -351,14 +347,21 @@
       >
         <span class="font-medium tracking-wide text-white font-poppins"
           >Ilustrações:
-          <a href="https://storyset.com" class="underline"
+          <a href="https://storyset.com" class="underline hover:text-gray-300"
             >storyset.com</a
           ></span
         >
         <span class="font-medium tracking-wide text-white font-poppins"
           >Ícones:
-          <a href="https://www.freepik.com" class="underline">freepik.com</a> e
-          <a href="https://www.flaticon.com/" class="underline"
+          <a
+            href="https://www.freepik.com"
+            class="underline hover:text-gray-300"
+            >freepik.com</a
+          >
+          e
+          <a
+            href="https://www.flaticon.com/"
+            class="underline hover:text-gray-300"
             >flaticon.com</a
           ></span
         >
