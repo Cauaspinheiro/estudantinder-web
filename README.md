@@ -67,11 +67,11 @@ yarn build
 
 Cria o arquivo src/styles.css para criar toda a estilização **usada** no arquivo src/index.html
 
-**Antes de rodar o script**: Copia todos os arquivos da pasta src para a pasta public
+**Depois de rodar o script**: Copia todos os arquivos da pasta src para a pasta public
 
 ## Ferramentas utilizadas
 
-Você pode ver todas as dependências do projeto no seguinte link: https://github.com/Estudantinder/estudantinder-mobile/network/dependencies
+Você pode ver todas as dependências do projeto no seguinte link: https://github.com/Estudantinder/estudantinder-web/network/dependencies
 
 ## Aplicativo Mobile
 
