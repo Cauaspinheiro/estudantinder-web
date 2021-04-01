@@ -17,7 +17,7 @@ Você vai precisar de algumas ferramentas para rodar o projeto localmente. Caso 
 ### GIT
 
 - Instale o git em sua máquina: [https://git-scm.com/downloads](https://git-scm.com/downloads)
-- Com o git instalado na sua máquina, clone o repositório usando o botão **Code** em https://github.com/Estudantinder/estudantinder-web
+- Com o git instalado na sua máquina, clone o repositório usando o botão **Code** em https://github.com/Cauaspinheiro/estudantinder-web
 
 ### NodeJS
 
@@ -71,7 +71,7 @@ Cria o arquivo src/styles.css para criar toda a estilização **usada** no arqui
 
 ## Ferramentas utilizadas
 
-Você pode ver todas as dependências do projeto no seguinte link: https://github.com/Estudantinder/estudantinder-web/network/dependencies
+Você pode ver todas as dependências do projeto no seguinte link: https://github.com/Cauaspinheiro/estudantinder-web/network/dependencies
 
 ## Aplicativo Mobile
 
