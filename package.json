@@ -1,7 +1,6 @@
 {
   "name": "estudantinder-web",
-  "version": "0.1.0",
-  "description": "",
+  "version": "1.0.0",
   "main": "src/index.html",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev postcss tailwind.css -o src/styles.css",
