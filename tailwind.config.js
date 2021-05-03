@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         'bg-page': '#fbfbfb',
-        'primary-green': '#0FAD58',
+        'primary-green': '#16884B',
         'primary-purple': '#6D36DA',
         'dark-purple': '#572BAE',
         'light-purple': '#F3EDFF',
