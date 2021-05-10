@@ -9,9 +9,18 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+
     <!-- Primary Meta Tags -->
     <title>Estudantinder</title>
     <meta name="title" content="Crie novas conexões enquanto aprende!" />
@@ -53,10 +62,10 @@
   <body class="overflow-x-hidden bg-bg-page">
     <main class="w-screen min-h-screen mx-auto">
       <section
-        class="flex flex-col w-screen pb-12 md:h-screen md:pb-0 md:bg-bg-page bg-primary-purple"
+        class="flex flex-col w-screen pb-12  md:h-screen md:pb-0 md:bg-bg-page bg-primary-purple"
       >
         <header
-          class="flex items-center self-center justify-around w-full py-3 md:h-20 md:py-0 md:justify-between bg-dark-purple md:bg-bg-page md:w-10/12 lg:w-3/4"
+          class="flex items-center self-center justify-around w-full py-3  md:h-20 md:py-0 md:justify-between bg-dark-purple md:bg-bg-page md:w-10/12 lg:w-3/4"
         >
           <img
             src="assets/logo.svg"
@@ -71,7 +80,7 @@
           />
 
           <div
-            class="z-10 items-center hidden text-base font-bold text-white md:text-primary-black justify-self-end md:flex gap-x-6 lg:gap-x-14 xl:pr-14 font-poppins"
+            class="z-10 items-center hidden text-base font-bold text-white  md:text-primary-black justify-self-end md:flex gap-x-6 lg:gap-x-14 xl:pr-14 font-poppins"
           >
             <a
               href="#about"
@@ -92,23 +101,23 @@
         </header>
 
         <div
-          class="flex flex-col items-center self-center justify-center w-full px-6 pt-12 md:pt-0 md:px-0 md:ml-24 md:w-3/4 md:items-start xl:ml-0 h-2/3"
+          class="flex flex-col items-center self-center justify-center w-full px-6 pt-12  md:pt-0 md:px-0 md:ml-24 md:w-3/4 md:items-start xl:ml-0 h-2/3"
         >
           <h1
-            class="w-full text-xl font-bold tracking-wide text-center text-white sm:text-2xl md:text-4xl md:text-left sm:w-9/12 xl:w-5/12 font-poppins md:text-primary-black"
+            class="w-full text-xl font-bold tracking-wide text-center text-white  sm:text-2xl md:text-4xl md:text-left sm:w-9/12 xl:w-5/12 font-poppins md:text-primary-black"
           >
             Crie novas conexões enquanto aprende!
           </h1>
 
           <span
-            class="w-full mt-6 text-base text-center text-white sm:font-normal md:text-left md:text-primary-black sm:w-9/12 sm:text-xl xl:w-5/12 font-poppins"
+            class="w-full mt-6 text-base text-center text-white  sm:font-normal md:text-left md:text-primary-black sm:w-9/12 sm:text-xl xl:w-5/12 font-poppins"
             >Conheça o projeto feito por alunos para alunos do ensino
             médio.</span
           >
 
           <a
             href="#about"
-            class="px-10 py-2 mt-8 font-bold text-white rounded-md bg-primary-green hover:bg-green-600 font-poppins"
+            class="px-10 py-2 mt-8 font-bold text-white rounded-md  bg-primary-green hover:bg-green-600 font-poppins"
           >
             Vamos lá
           </a>
@@ -117,7 +126,7 @@
         <img
           src="assets/rect-left.svg"
           alt="Left Rectangle"
-          class="absolute bottom-0 left-0 hidden max-w-screen-lg select-none md:block"
+          class="absolute bottom-0 left-0 hidden max-w-screen-lg select-none  md:block"
         />
         <img
           src="assets/rect-right.svg"
@@ -128,19 +137,19 @@
         <img
           src="assets/home.svg"
           alt="Home Estudantinder"
-          class="self-center w-full sm:w-9/12 md:absolute md:hidden 2xl:max-w-max lg:max-w-xl xl:block xl:right-32 xl:top-20"
+          class="self-center w-full  sm:w-9/12 md:absolute md:hidden 2xl:max-w-max lg:max-w-xl xl:block xl:right-32 xl:top-20"
         />
       </section>
 
       <section
         id="about"
-        class="flex flex-col items-center justify-around w-screen px-0 py-12 sm:px-6 md:px-12 md:py-24 bg-light-purple"
+        class="flex flex-col items-center justify-around w-screen px-0 py-12  sm:px-6 md:px-12 md:py-24 bg-light-purple"
       >
         <h1 class="pb-4 text-2xl font-medium text-center font-poppins">
           Sobre o projeto
         </h1>
         <div
-          class="px-8 text-lg font-medium text-left sm:tracking-wider sm:text-left font-poppins text-primary-black"
+          class="px-8 text-lg font-medium text-left  sm:tracking-wider sm:text-left font-poppins text-primary-black"
         >
           <p class="py-2">
             A ideia do projeto surgiu quando percebemos que nós, alunos,
@@ -161,7 +170,7 @@
       </section>
 
       <section
-        class="flex flex-col items-center justify-between w-screen px-6 py-12 md:px-12 md:py-24"
+        class="flex flex-col items-center justify-between w-screen px-6 py-12  md:px-12 md:py-24"
       >
         <h1
           class="pb-4 text-xl font-medium text-center sm:text-2xl font-poppins"
@@ -170,10 +179,10 @@
         </h1>
 
         <div
-          class="flex flex-col items-center w-full py-10 sm:px-0 gap-y-10 md:flex-row justify-evenly md:gap-y-0"
+          class="flex flex-col items-center w-full py-10  sm:px-0 gap-y-10 md:flex-row justify-evenly md:gap-y-0"
         >
           <div
-            class="flex flex-col items-center p-8 transition-shadow duration-300 border-2 hover:shadow-lg w-80 h-80 rounded-xl border-primary-purple"
+            class="flex flex-col items-center p-8 transition-shadow duration-300 border-2  hover:shadow-lg w-80 h-80 rounded-xl border-primary-purple"
           >
             <img
               src="assets/estudantinder-icon.svg"
@@ -181,7 +190,7 @@
             />
 
             <h2
-              class="py-4 text-xl font-bold tracking-wide text-center font-poppins text-primary-purple"
+              class="py-4 text-xl font-bold tracking-wide text-center  font-poppins text-primary-purple"
             >
               Quem ensina também aprende.
             </h2>
@@ -193,7 +202,7 @@
           </div>
 
           <div
-            class="flex flex-col items-center p-8 transition-shadow duration-300 border-2 hover:shadow-lg w-80 h-80 rounded-xl border-primary-purple"
+            class="flex flex-col items-center p-8 transition-shadow duration-300 border-2  hover:shadow-lg w-80 h-80 rounded-xl border-primary-purple"
           >
             <img
               src="assets/messages-icon.svg"
@@ -201,13 +210,13 @@
             />
 
             <h2
-              class="py-2 mt-1 text-xl font-bold tracking-wide text-center font-poppins text-primary-purple"
+              class="py-2 mt-1 text-xl font-bold tracking-wide text-center  font-poppins text-primary-purple"
             >
               Faça novas amizades com o Estudantinder.
             </h2>
 
             <p
-              class="py-2 text-base font-medium tracking-wide font-poppins text-primary-black"
+              class="py-2 text-base font-medium tracking-wide  font-poppins text-primary-black"
             >
               Através dos contatos que os alunos disponibilizam você pode
               conhecer outros alunos que desejam aprender junto com você.
@@ -217,10 +226,10 @@
       </section>
 
       <section
-        class="relative flex flex-col items-center justify-between w-screen min-h-screen pb-20 bg-light-purple"
+        class="relative flex flex-col items-center justify-between w-screen min-h-screen pb-20  bg-light-purple"
       >
         <h1
-          class="z-10 px-2 py-16 text-xl font-medium text-center sm:px-8 sm:text-2xl font-poppins"
+          class="z-10 px-2 py-16 text-xl font-medium text-center  sm:px-8 sm:text-2xl font-poppins"
         >
           Projetado para que sua experiência seja a melhor possível
         </h1>
@@ -233,7 +242,7 @@
           />
 
           <p
-            class="z-10 w-full px-6 pt-12 text-lg font-medium tracking-wide text-center sm:text-left md:py-0 sm:px-12 md:px-0 md:w-2/5 font-poppins"
+            class="z-10 w-full px-6 pt-12 text-lg font-medium tracking-wide text-center  sm:text-left md:py-0 sm:px-12 md:px-0 md:w-2/5 font-poppins"
           >
             Com os botões de like e dislike você pode escolher os alunos que se
             interessou, tendo a opção de seguir para o perfil para ver mais
@@ -256,10 +265,10 @@
       </section>
 
       <section
-        class="relative flex flex-col items-center justify-between w-screen min-h-screen pb-20"
+        class="relative flex flex-col items-center justify-between w-screen min-h-screen pb-20 "
       >
         <h1
-          class="z-10 px-2 py-16 text-xl font-medium text-center sm:px-8 sm:text-2xl font-poppins"
+          class="z-10 px-2 py-16 text-xl font-medium text-center  sm:px-8 sm:text-2xl font-poppins"
         >
           Seu lugar para conhecer e estudar com pessoas novas
         </h1>
@@ -267,7 +276,7 @@
           class="flex flex-col-reverse items-center md:flex-row justify-evenly"
         >
           <p
-            class="z-10 w-full px-6 pt-12 text-lg font-medium tracking-wide text-center sm:text-left md:py-0 sm:px-12 md:px-0 md:w-2/5 font-poppins"
+            class="z-10 w-full px-6 pt-12 text-lg font-medium tracking-wide text-center  sm:text-left md:py-0 sm:px-12 md:px-0 md:w-2/5 font-poppins"
           >
             Na tela Matches ficarão todas as pessoas que também gostaram do seu
             perfil e gostariam de estudar junto com você, vocês podem entrar em
@@ -296,7 +305,7 @@
 
       <section
         id="download"
-        class="flex flex-col items-center justify-around w-screen px-12 py-16 bg-light-purple"
+        class="flex flex-col items-center justify-around w-screen px-12 py-16  bg-light-purple"
       >
         <h1 class="text-2xl font-medium text-center font-poppins">
           Faça parte dessa união entre estudantes.
@@ -306,7 +315,7 @@
           href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40cauaspinheiro/estudantinder-mobile-70605be635e949508e10402e2e608884-signed.apk"
           target="_blank"
           rel="noopener noreferrer"
-          class="px-6 py-4 mt-8 text-lg font-bold text-center text-white rounded-md sm:px-12 bg-primary-green hover:bg-green-600 font-poppins"
+          class="px-6 py-4 mt-8 text-lg font-bold text-center text-white rounded-md  sm:px-12 bg-primary-green hover:bg-green-600 font-poppins"
         >
           BAIXE O APLICATIVO
         </a>
@@ -314,10 +323,10 @@
 
       <section
         id="contact"
-        class="flex flex-col items-center w-screen px-12 py-16 lg:flex-row bg-primary-purple justify-evenly"
+        class="flex flex-col items-center w-screen px-12 py-16  lg:flex-row bg-primary-purple justify-evenly"
       >
         <span
-          class="block text-xl font-bold tracking-wider text-center text-white lg:hidden font-poppins"
+          class="block text-xl font-bold tracking-wider text-center text-white  lg:hidden font-poppins"
           >Possui alguma dúvida? Fale conosco!</span
         >
 
@@ -325,12 +334,12 @@
 
         <div class="flex flex-col items-center gap-y-16">
           <span
-            class="hidden text-xl font-bold tracking-wider text-center text-white lg:block font-poppins"
+            class="hidden text-xl font-bold tracking-wider text-center text-white  lg:block font-poppins"
             >Possui alguma dúvida? Fale conosco!</span
           >
 
           <span
-            class="w-full text-xl font-bold tracking-wider text-center text-white sm:w-10/12 font-poppins"
+            class="w-full text-xl font-bold tracking-wider text-center text-white  sm:w-10/12 font-poppins"
             >Envie um email para
             <a
               class="underline hover:text-gray-300"
@@ -343,7 +352,7 @@
         </div>
       </section>
       <section
-        class="flex flex-col items-center w-full py-6 sm:flex-row justify-evenly bg-dark-purple"
+        class="flex flex-col items-center w-full py-6  sm:flex-row justify-evenly bg-dark-purple"
       >
         <span class="font-medium tracking-wide text-white font-poppins"
           >Ilustrações:
