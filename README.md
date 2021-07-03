@@ -43,7 +43,7 @@ You will need some tools to run the project locally. If you just want to access 
 
 - Open the src/index.html file in your favorite browser
 
-Well done! You can now start using the API, go to the [Scripts](#scripts) tab to see which scripts are available for use
+Well done! You can now start using the website, go to the [Scripts](#scripts) tab to see which scripts are available for use
 
 ## Scripts
 
